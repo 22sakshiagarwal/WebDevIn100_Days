@@ -1183,8 +1183,72 @@ class WebDev100Days {
           category: "creativity",
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["salon", "cutting", "glow up"]
-  }
+<<<<<<< HEAD 
+=======
+  }, 
+    {
+      originalDay: 167,
+      name: "Agency Website",
+      description: "Showcase your agency",
+      demoLink: "./public/Agency-Website/index.html",
+      category: "creativity",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      features: ["agency", "showcase", "portfolio"]
+    },
+ 
 
+    {
+      originalDay: 168,
+      name: "RAM Website",
+      description: "A website for showcasing RAM products",
+      demoLink: "./public/RAM-Website/index.html",
+      category: "creativity",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      features: ["RAM", "Computer", "Website"]
+    }, 
+
+    {
+           originalDay: 169,
+           name: "Lagunitas Website",
+           description: "A website for showcasing Lagunitas products",
+           demoLink: "./public/Lagunitas-Website/index.html",
+           category: "creativity",
+           technologies: ["HTML", "CSS", "JavaScript"],
+           features: ["Lagunitas", "Beer", "Website"]
+         }, 
+
+
+         {
+            originalDay: 170,
+            name: "Pirate Website",
+            description: "A website for showcasing pirate-themed products",
+            demoLink: "./public/Pirates-Website/index.html",
+            category: "creativity",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            features: ["Pirate", "Website", "Showcase"]
+         }, 
+
+         {
+
+             originalDay: 171,
+             name: "Christmas Lights",
+             description: "A website for showcasing Christmas lights",
+             demoLink: "./public/Christmas-Website/index.html",
+             category: "creativity",
+             technologies: ["HTML", "CSS", "JavaScript"],
+             features: ["Christmas", "Lights", "Website"]
+         },
+         {
+
+            originalDay:172,
+             name: "OptiCompiler",
+             description: "A mini Ahead-of-Time compiler with optimizations",
+             demoLink: "./public/OptiCompiler/index.html",
+             category: "AI/ML + Systems",
+             technologies: ["C++", "JavaScript", "HTML", "CSS"],
+             features: ["Lexical Analysis", "Syntax Parsing", "Intermediate Code Generation", "Optimizations (constant folding, dead code elimination)"]
+          }
+    
     ];
 
     this.projects = projectsData.map((project, index) => ({
