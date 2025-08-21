@@ -28,6 +28,19 @@ function parse(tokens) {
     return left;
   }
 
+  function parseCondition() {
+    let left = parseExpression();
+
+    while (peek() && peek().type === 'OPERATOR' && (peek().value === '==' || peek().value === '!=' || 
+           peek().value === '<' || peek().value === '>' || peek().value === '<=' || peek().value === '>=')) {
+      const operator = consume('OPERATOR').value;
+      const right = parseExpression();
+      left = { type: 'binary_operation', operator, left, right };
+    }
+
+    return left;
+  }
+
   function parseTerm() {
     let left = parseFactor();
 
@@ -71,7 +84,7 @@ function parse(tokens) {
     } else if (peek() && peek().type === 'KEYWORD' && peek().value === 'if') {
       consume('KEYWORD', 'if');
       consume('PUNCTUATION', '(');
-      const condition = parseExpression(); // Simplified condition parsing
+      const condition = parseCondition(); // Use parseCondition for proper condition parsing
       consume('PUNCTUATION', ')');
       consume('PUNCTUATION', '{');
       const thenBlock = parseBlock();
@@ -83,14 +96,14 @@ function parse(tokens) {
 
   function parseBlock() {
     const statements = [];
-    while (peek() && peek().type !== 'PUNCTUATION' || (peek().type === 'PUNCTUATION' && peek().value !== '}')) {
+    while (peek() && (peek().type !== 'PUNCTUATION' || peek().value !== '}')) {
       statements.push(parseStatement());
     }
     return statements;
   }
 
   const program = [];
-  while (currentTokenIndex < tokens.length) {
+  while (currentTokenIndex < tokens.length && peek()) {
     program.push(parseStatement());
   }
   return program;

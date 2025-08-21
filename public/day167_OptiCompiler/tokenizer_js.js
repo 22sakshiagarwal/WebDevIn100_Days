@@ -6,7 +6,7 @@ function tokenize(code) {
     { type: 'KEYWORD', regex: /^(if|else|while|print)\b/ },
     { type: 'IDENTIFIER', regex: /^[a-zA-Z_][a-zA-Z0-9_]*/ },
     { type: 'NUMBER', regex: /^\d+(\.\d+)?\b/ },
-    { type: 'OPERATOR', regex: /^(\+|\-|\*|\/|=|==|!=|<|>|<=|>=)/ },
+    { type: 'OPERATOR', regex: /^(==|!=|<=|>=|\+|\-|\*|\/|=|<|>)/ },
     { type: 'PUNCTUATION', regex: /^([;\{\}\(\)])/ },
     { type: 'WHITESPACE', regex: /^\s+/ },
   ];

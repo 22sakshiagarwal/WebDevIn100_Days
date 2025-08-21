@@ -73,14 +73,18 @@ function generateMachineCode(optimizedCode) {
         registerCount++;
       }
     } else if (line.startsWith('if')) {
-      const condition = line.substring(3, line.length - 3).trim();
-      machineCode += `// Condition: ${condition}\n`;
-      machineCode += `CMP ${condition}\n`;
-      machineCode += `JZ end_if_${registerCount}\n`; // Jump if zero (condition is false)
-      machineCode += `// If block starts\n`;
-      // End label will be placed after the block
-      machineCode += `end_if_${registerCount}:\n`;
-      registerCount++;
+      // Extract condition from if (condition) format
+      const conditionMatch = line.match(/if\s*\((.*?)\)\s*\{/);
+      if (conditionMatch) {
+        const condition = conditionMatch[1].trim();
+        machineCode += `// Condition: ${condition}\n`;
+        machineCode += `CMP ${condition}\n`;
+        machineCode += `JZ end_if_${registerCount}\n`; // Jump if zero (condition is false)
+        machineCode += `// If block starts\n`;
+        // End label will be placed after the block
+        machineCode += `end_if_${registerCount}:\n`;
+        registerCount++;
+      }
     }
   }
 
