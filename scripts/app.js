@@ -1183,9 +1183,7 @@ class WebDev100Days {
           category: "creativity",
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["salon", "cutting", "glow up"]
-<<<<<<< HEAD 
-=======
-  }, 
+        },
     {
       originalDay: 167,
       name: "Agency Website",
