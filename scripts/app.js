@@ -1400,7 +1400,7 @@ class WebDev100Days {
          },
          {
 
-                     originalDay:183,
+            originalDay:183,
             name: "Uttarakhand Image",
             description: "Click on a district to visit its Wikipedia page.",
             demoLink: "./public/uttar/uttarakhand_image.html",
