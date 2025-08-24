@@ -1241,7 +1241,7 @@ class WebDev100Days {
             originalDay:172,
              name: "OptiCompiler",
              description: "A mini Ahead-of-Time compiler with optimizations",
-             demoLink: "./public/OptiCompiler/index.html",
+             demoLink: "./public/day167_OptiCompiler/index.html",
              category: "Creativity",
              technologies: ["C++", "JavaScript", "HTML", "CSS"],
              features: ["Lexical Analysis", "Syntax Parsing", "Intermediate Code Generation", "Optimizations (constant folding, dead code elimination)"]
