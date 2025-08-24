@@ -1397,7 +1397,18 @@ class WebDev100Days {
             technologies: ["HTML", "CSS", "JavaScript"],
             features: ["Chat", "UI", "Channels"]
 
-         }
+         },
+         {
+
+                     originalDay:183,
+            name: "Uttarakhand Image",
+            description: "Click on a district to visit its Wikipedia page.",
+            demoLink: "./public/uttar/uttarakhand_image.html",
+            category: "Creativity",
+            technologies: ["C++", "JavaScript", "HTML", "CSS"],
+            features: ["knowledge","Image"]
+           
+        }
     ];
 
     this.projects = projectsData.map((project, index) => ({
