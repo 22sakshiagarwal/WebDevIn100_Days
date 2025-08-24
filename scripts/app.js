@@ -1260,9 +1260,7 @@ class WebDev100Days {
              technologies: ["HTML", "CSS", "JavaScript"],
              features: ["Christmas", "Lights", "Website"]
          },
-<<<<<<< HEAD
          {
-
             originalDay:172,
              name: "OptiCompiler",
              description: "A mini Ahead-of-Time compiler with optimizations",
@@ -1271,35 +1269,17 @@ class WebDev100Days {
              technologies: ["C++", "JavaScript", "HTML", "CSS"],
              features: ["Lexical Analysis", "Syntax Parsing", "Intermediate Code Generation", "Optimizations (constant folding, dead code elimination)"]
           },
-          {
-
-            originalDay:173,
-             name: "Uttarakhand Image",
-             description: "Click on a district to visit its Wikipedia page.",
-             demoLink: "./public/uttar/uttarakhand image.html",
-             category: "Creativity",
-             technologies: ["C++", "JavaScript", "HTML", "CSS"],
-             features: ["knowledge","Image"]
-             
-          }
-    
-=======
-
          {
-             originalDay: 172,
+             originalDay: 173,
              name: "Save Animals Website ",
              description: "A website for saving animals",
              demoLink: "./public/Save-Animals-Website/index.html",
              category: "creativity",
              technologies: ["HTML", "CSS", "JavaScript"],
              features: ["Animal", "Save", "Website"]
-
          },
-
-
          {
-
-          originalDay:173,
+          originalDay:174,
           name : "Jewellery Website",
           description: "A website for showcasing jewellery products",
           demoLink: "./public/Jwellery-Website/index.html",
@@ -1307,10 +1287,8 @@ class WebDev100Days {
           technologies: ["HTML", "CSS", "JavaScript"],
           features: ["Jewellery", "Website", "Showcase"]
          },
-
          {
-
-              originalDay: 174,
+              originalDay: 175,
               name:"Blog Website",
               description: "A website for showcasing blog posts",
               demoLink: "./public/Blog-Website/index.html",
@@ -1318,12 +1296,8 @@ class WebDev100Days {
               technologies: ["HTML", "CSS", "JavaScript"],
               features: ["Blog", "Website", "Showcase"]
          },
-
-
-
          {
-
-              originalDay: 175,
+              originalDay: 176,
               name:"Yoga Website",
               description: "A website for showcasing yoga classes",
               demoLink: "./public/Yoga-Website/index.html",
@@ -1331,10 +1305,8 @@ class WebDev100Days {
               technologies: ["HTML", "CSS", "JavaScript"],
               features: ["Yoga", "Website", "Showcase"]
          },
-
          {
-
-              originalDay: 176,
+              originalDay: 177,
               name : "SunDown Studio",
               description: "A website for showcasing SunDown Studio's projects",
               demoLink: "./public/SunDown-Studio-Website/index.html",
@@ -1342,10 +1314,8 @@ class WebDev100Days {
               technologies: ["HTML", "CSS", "JavaScript"],
               features: ["SunDown", "Studio", "Website"]
          },
-
          {
-
-              originalDay: 177,
+              originalDay: 178,
               name: "Game Over",
               description: "Ecommerce website for selling video games",
               demoLink: "./public/Game-Over-Game-Selling-Website/index.html",
@@ -1353,10 +1323,8 @@ class WebDev100Days {
               technologies: ["HTML", "CSS", "JavaScript"],
               features: ["Game", "Over", "Website"]
          },
-
          {
-
-            originalDay: 178,
+            originalDay: 179,
             name: "Zombie Shooter",
             description: "A website for showcasing a zombie shooter game",
             demoLink: "./public/Zombie-Shooter-Game/index.html",
@@ -1412,9 +1380,6 @@ class WebDev100Days {
             features: ["Chat", "UI", "Channels"]
 
          }
-
-
->>>>>>> 49f3b8a17d14384dbee354be3bda66d7163e378d
     ];
 
     this.projects = projectsData.map((project, index) => ({
