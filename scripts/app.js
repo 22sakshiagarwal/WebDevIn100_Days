@@ -754,55 +754,45 @@ class WebDev100Days {
 
 
       {
-
-
-        originalDay: 125,
+        originalDay: 130,
         name: "University Management System",
-
-
         description: "Manage university operations including courses, students, and faculty.",
         demoLink: "./public/University_managment_system/index.html",
         category: "utilities",
         technologies: ["HTML", "CSS", "JavaScript", "API"],
         features: ["Visitor Management", "History Tracking", "Search Functionality"]
-
-
-
       },
       {
-        originalDay: 126,
-        name: " Pixel Art Maker",
+        originalDay: 131,
+        name: "Pixel Art Maker",
         description: "Create pixel art with a simple grid interface.",
         demoLink: "./public/Day-76_PixelArt/index.html",
         category: "creativity",
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Grid Creation", "Color Selection", "Download Art", "Reset Canvas"]
-
       },
-
       {
-         originalDay: 127,
-          name: "CineSearch",
+        originalDay: 132,
+        name: "CineSearch",
         description: "stylish and responsive movie search web app that allows users to search for any movie using the OMDB API.",
         demoLink: "./public/CineSearch/index.html",
         category: "entertainment",
         technologies: ["HTML", "CSS", "JavaScript", "API"],
         features:[
-  "Live Movie Search Functionality",
-  "Poster, Title & Year Display",
-  "Responsive Grid Layout",
-  "OMDb API Integration",
-  "Error Handling & No Result Messages",
-  "Dark-Themed UI with Neon Accents",
-  "Clean Separation of HTML, CSS, and JS"
-]
-       },
+          "Live Movie Search Functionality",
+          "Poster, Title & Year Display",
+          "Responsive Grid Layout",
+          "OMDb API Integration",
+          "Error Handling & No Result Messages",
+          "Dark-Themed UI with Neon Accents",
+          "Clean Separation of HTML, CSS, and JS"
+        ]
+      },
 
 
 
       {
-
-        originalDay: 131,
+        originalDay: 133,
         name: "Fruit Ninja",
         description: "Play with fruits",
         demoLink: "./public/Day-59/index.html",
@@ -811,8 +801,7 @@ class WebDev100Days {
         features: ["Cut"]
       },
       {
-
-        originalDay: 132,
+        originalDay: 134,
         name: "Solitaire",
         description: "Play with Cards",
         demoLink: "./public/Day-90/index.html",
@@ -821,8 +810,7 @@ class WebDev100Days {
         features: ["Ace", "King"]
       },
       {
-
-        originalDay: 133,
+        originalDay: 135,
         name: "Door Game",
         description: "Open the Doors of your luck",
         demoLink: "./public/Day-91/index.html",
@@ -831,8 +819,7 @@ class WebDev100Days {
         features: ["Luck", "Doors"]
       },
       {
-
-        originalDay: 134,
+        originalDay: 136,
         name: "Roast Battle",
         description: "Roast Your self by AI",
         demoLink: "./public/Day-92/index.html",
@@ -841,8 +828,7 @@ class WebDev100Days {
         features: ["Roast"]
       },
       {
-
-        originalDay: 135,
+        originalDay: 137,
         name: "Compliment Generator",
         description: "Generate Compliment for your love once",
         demoLink: "./public/Day-93/index.html",
@@ -851,8 +837,7 @@ class WebDev100Days {
         features: ["Compliments"]
       },
       {
-
-        originalDay: 136,
+        originalDay: 138,
         name: "PickUp Lines",
         description: "Generate PickUp Lines for your someonce",
         demoLink: "./public/Day-94/index.html",
@@ -861,8 +846,7 @@ class WebDev100Days {
         features: ["PickUp Lines"]
       },
       {
-
-        originalDay: 137,
+        originalDay: 139,
         name: "Hero Identity",
         description: "Know who you are",
         demoLink: "./public/Day-95/index.html",
@@ -871,9 +855,8 @@ class WebDev100Days {
         features: ["Hero", "Powers"]
       },
       {
-
-        originalDay: 138,
-        name: "Fotune Teller",
+        originalDay: 140,
+        name: "Fortune Teller",
         description: "Know your future",
         demoLink: "./public/Day-96/index.html",
         category: "games",
@@ -881,7 +864,7 @@ class WebDev100Days {
         features: ["Future", "Fortune"]
       },
       {
-        originalDay: 139,
+        originalDay: 141,
         name: "Fitness Tracker",
         description: "Advanced, vibrant web app to track daily steps and water intake with charts, themes, and responsive design.",
         demoLink: "./public/Fitness_Tracker/index.html",
@@ -889,11 +872,8 @@ class WebDev100Days {
         technologies: ["HTML", "CSS", "JavaScript", "Chart.js"],
         features: ["Daily Steps & Water Input", "Dark/Light Mode", "Chart.js Visualizations", "Responsive Design", "Duplicate Prevention", "Tooltips on Charts"]
       },
-
-
       {
-
-        originalDay: 140,
+        originalDay: 142,
         name: "Super Mario",
         description: "Mario is back.",
         demoLink: "./public/Day-62/index.html",
@@ -901,10 +881,8 @@ class WebDev100Days {
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Mario", "Jump"]
       },
-
       {
-
-        originalDay: 141,
+        originalDay: 143,
         name: "Netflix",
         description: "Netflix Clone",
         demoLink: "./public/Day-97/index.html",
@@ -913,8 +891,7 @@ class WebDev100Days {
         features: ["Clone"]
       },
       {
-
-        originalDay: 142,
+        originalDay: 144,
         name: "Spin",
         description: "Spin the wheel",
         demoLink: "./public/Day-98/index.html",
@@ -923,8 +900,7 @@ class WebDev100Days {
         features: ["Spin", "Wheel"]
       },
       {
-
-        originalDay: 143,
+        originalDay: 145,
         name: "PuckMan",
         description: "Escape from the ghost",
         demoLink: "./public/Day-99/index.html",
@@ -933,8 +909,7 @@ class WebDev100Days {
         features: ["PuckMan", "Ghost"]
       },
       {
-
-        originalDay: 144,
+        originalDay: 146,
         name: "EduGames phase 1",
         description: "Class 1 - Class 8",
         demoLink: "./public/Day-100/index.html",
@@ -943,8 +918,7 @@ class WebDev100Days {
         features: ["Games", "MCQ"]
       },
       {
-
-        originalDay: 145,
+        originalDay: 147,
         name: "EduGames phase 2",
         description: "Class 9 - Class 12",
         demoLink: "./public/Day-80/index.html",
@@ -953,8 +927,7 @@ class WebDev100Days {
         features: ["Games", "MCQ"]
       },
       {
-
-        originalDay: 146,
+        originalDay: 148,
         name: "Tank Battle",
         description: "Fight with Tanks",
         demoLink: "./public/Day-81/index.html",
@@ -974,7 +947,7 @@ class WebDev100Days {
       },
       {
 
-        originalDay: 148,
+        originalDay: 149,
         name: "Pong",
         description: "Play Pong",
         demoLink: "./public/Day-83/index.html",
@@ -984,7 +957,7 @@ class WebDev100Days {
       },
       {
 
-        originalDay: 149,
+        originalDay: 150,
         name: "404 Escape Room",
         description: "Find the hidden clues",
         demoLink: "./public/Day-84/index.html",
@@ -1155,48 +1128,13 @@ class WebDev100Days {
       },
 
       {
-        originalDay: 160,
-        name: "Fitness Club ",
-        description: "Your Only Gym",
-        demoLink: "./public/Gym-Website/index.html",
-        category: "creativity",
-        technologies: ["HTML", "CSS", "JavaScript"],
-        features: ["Gym", "Weight", "Fitness"]
-      },
-
-
-      {
-        originalDay: 164,
-        name: "Library Book Manager",
-        description: "A stylish, accessible, and fully functional library management app to add, edit, delete, and track reading status of books with persistent storage.",
-        demoLink: "./public/Library_Book_Manager/index.html",
-        category: "productivity",
-        technologies: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-        features: [
-          "Add, Edit, and Delete Books", "Reading Status Toggle (Unread, Reading, Read)",
-          "Dark/Light Mode Toggle with Persistence", "Responsive and Accessible UI",
-          "Animated Border Gradient Styling", "Empty Library Message Handling"]
-      },
-      {
-        originalDay: 164,
+        originalDay: 162,
         name: "Drum Kit",
         description: "Play the Drum",
         demoLink: "./public/Drum-Kit/index.html",
         category: "productivity",
         technologies: ["HTML", "CSS", "JavaScript"],
         features: ["Music", "Drum"]
-      },
-
-      {
-        originalDay: 165,
-        name: "Memory Grid Rush",
-        description: "Fast-paced memory game where players repeat flashing grid patterns that get progressively harder with each level.",
-        demoLink: "./public/Memory_Grid_Rush/index.html",
-        category: "games",
-        technologies: ["HTML", "CSS", "JavaScript"],
-        features: [
-          "Dynamic grid scaling, pattern generation & replay, dark/light mode, score & level tracking, keyboard accessibility, animated feedback, and replay option."
-        ]
       }, 
       
       {
