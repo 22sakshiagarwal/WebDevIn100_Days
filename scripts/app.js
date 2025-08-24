@@ -1245,6 +1245,17 @@ class WebDev100Days {
              category: "Creativity",
              technologies: ["C++", "JavaScript", "HTML", "CSS"],
              features: ["Lexical Analysis", "Syntax Parsing", "Intermediate Code Generation", "Optimizations (constant folding, dead code elimination)"]
+          },
+          {
+
+            originalDay:173,
+             name: "Uttarakhand Image",
+             description: "Click on a district to visit its Wikipedia page.",
+             demoLink: "./public/uttar/uttarakhand image.html",
+             category: "Creativity",
+             technologies: ["C++", "JavaScript", "HTML", "CSS"],
+             features: ["knowledge","Image"]
+             
           }
     
     ];
