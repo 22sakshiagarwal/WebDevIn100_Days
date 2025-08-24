@@ -1260,7 +1260,6 @@ class WebDev100Days {
              technologies: ["HTML", "CSS", "JavaScript"],
              features: ["Christmas", "Lights", "Website"]
          },
-<<<<<<< HEAD
          {
 
             originalDay:172,
@@ -1270,9 +1269,7 @@ class WebDev100Days {
              category: "Creativity",
              technologies: ["C++", "JavaScript", "HTML", "CSS"],
              features: ["Lexical Analysis", "Syntax Parsing", "Intermediate Code Generation", "Optimizations (constant folding, dead code elimination)"]
-          }
-    
-=======
+         },
 
          {
              originalDay: 172,
@@ -1401,9 +1398,6 @@ class WebDev100Days {
             features: ["Chat", "UI", "Channels"]
 
          }
-
-
->>>>>>> 49f3b8a17d14384dbee354be3bda66d7163e378d
     ];
 
     this.projects = projectsData.map((project, index) => ({
