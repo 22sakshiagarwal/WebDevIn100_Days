@@ -1335,7 +1335,7 @@ class WebDev100Days {
 
          {
 
-           originalDay:179,
+           originalDay:180,
            name:"Interior Design Website",
            description: "A website for showcasing interior design ideas",
            demoLink: "./public/Interior-Design-Website/index.html",
@@ -1346,7 +1346,7 @@ class WebDev100Days {
 
          {
             
-             originalDay:180, 
+             originalDay:181, 
              name:"HangMan Game",
               description: "A classic word-guessing game where players try to guess a hidden word by suggesting letters within a certain number of guesses.",
               demoLink: "./public/HangmanGame/index.html",
@@ -1359,7 +1359,7 @@ class WebDev100Days {
          {
 
 
-          originalDay: 181,
+          originalDay: 182,
           name:"Movie Seat Booking",
           description: "A website for booking movie seats",
           demoLink: "./public/MovieSeatBooking/index.html",
@@ -1371,7 +1371,7 @@ class WebDev100Days {
 
          {
 
-            originalDay: 182,
+            originalDay: 183,
             name:"Discord Clone",
             description: "Discord UI Clone ",
             demoLink: "./public/Discord-Clone/index.html",
