@@ -1357,5 +1357,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = WebDev100Days;
-}git 
+    module.exports = WebDev100Days;
+}
